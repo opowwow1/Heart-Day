@@ -86,7 +86,7 @@ noBtn.addEventListener("click", (e) => {
 });
 
 yesBtn.onclick = () => {
-  message.textContent = "Locked in. See you on Valentine’s.";
+  message.textContent = "Locked in. See you later pookie.";
   noBtn.style.display = "none";
-  yesBtn.textContent = "Yes ✅";
+  yesBtn.textContent = "Yes";
 };
