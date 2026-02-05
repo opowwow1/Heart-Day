@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For Emy</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+
+    <section class="card pulse" id="screenIntro">
+      <div class="chip chip-pink">For Emy</div>
+      <h1 class="title">A small note</h1>
+      <p class="sub">I made this page just for you.</p>
+
+      <button class="btn btn-primary" id="openBtn">Open</button>
+      <p class="fineprint">Tip: try the “No” button.</p>
+    </section>
+
+    <section class="card pulse hidden" id="screenQuestion">
+      <div class="chip chip-red">Question</div>
+      <h2 class="title">Will you be my Valentine?</h2>
+      <p class="sub" id="promptLine">Pick one.</p>
+
+      <div class="playArea" id="buttonArea">
+        <button class="btn btn-yes" id="yesBtn">Yes</button>
+        <button class="btn btn-no" id="noBtn">No</button>
+      </div>
+
+      <p class="status" id="message"></p>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
